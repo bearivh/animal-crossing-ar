@@ -38,16 +38,6 @@ python ar_gif.py
 
 결과 영상이 `ar_result.mp4`로 저장됩니다.
 
-## 파일 구조
-
-```
-.
-├── calibration.py           # 카메라 캘리브레이션
-├── ar_gif.py                # AR GIF 오버레이
-├── chessboard.mp4           # 체스보드 입력 영상
-├── overlay.gif              # 오버레이할 GIF
-├── calibration_result.npz   # 캘리브레이션 결과 (자동 생성)
-└── ar_result.mp4            # AR 결과 영상 (자동 생성)
 ```
 
 ## 동작 원리
